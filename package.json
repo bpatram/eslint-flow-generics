@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint index.js"
+    "lint": "eslint index.js",
+    "build": "babel index.js"
   },
   "author": "Brandon Patram <brandon.patram@ebth.com>",
   "license": "UNLICENSED",
   "dependencies": {
+    "babel-cli": "^6.26.0",
     "babel-eslint": "^8.2.6",
     "babel-preset-flow": "^6.23.0",
     "eslint": "4.x",
