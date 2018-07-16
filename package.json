@@ -1,0 +1,22 @@
+{
+  "name": "bs-eslint-error",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint index.js"
+  },
+  "author": "Brandon Patram <brandon.patram@ebth.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "babel-eslint": "^8.2.6",
+    "babel-preset-flow": "^6.23.0",
+    "eslint": "4.x",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-flowtype": "^2.50.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.10.0",
+    "flow-bin": "^0.76.0"
+  }
+}
